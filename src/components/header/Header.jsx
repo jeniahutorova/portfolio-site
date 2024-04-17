@@ -3,27 +3,23 @@ const Header = () => {
   return (
     <header className="header">
       <nav className="nav__container">
-        <a href="index.html" className="nav__logo">
+        <a href="#main" className="nav__logo">
         </a>
         <div className="nav__menu">
-          <ul className="nav__list grid">
+          <ul className="nav__list">
             <li className="nav__item">
-              <a href="/" className="nav__link">
+              <a href="#main" className="nav__link">
                 <i className="uil uil-estate nav__icon"></i>
-                Home
-              </a>
-            </li>
-            <li className="nav__item">
-              <a href="/" className="nav__link">
-                <i className="uil uil-user nav__icon"></i>
                 About
               </a>
             </li>
             <li className="nav__item">
-              <a href="/" className="nav__link">
-                <i className="uil uil-file-alt nav__icon"></i>
-                Skills
-              </a>
+              
+            <a href="#skills" className="nav__link">
+                  <i className="uil uil-file-alt nav__icon"></i>
+                  Skills
+               </a>
+              
             </li>
             <li className="nav__item">
               <a href="/" className="nav__link">

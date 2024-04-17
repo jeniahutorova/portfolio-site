@@ -1,6 +1,6 @@
 .header{
     width: 100%;
-    position: sticky;
+    position: absolute;
     top: 10px;
     left: 0;
     right:0;
