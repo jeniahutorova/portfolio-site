@@ -7,14 +7,14 @@ import CV from "../../assets/Yevheniia Hutorova.pdf"
 
 const Home = () => {
     return (
-      <section>
-        <div id="main" className="home__container">
+      <section id="main" >
+        <div className="home__container">
           <Socials />
           <div className="home__img"></div>
           <Data />
         </div>
         <a download href={CV} className="button--flex" >
-        <i class="uil uil-folder-upload button__icon"></i>
+        <i className="uil uil-folder-upload button__icon"></i>
           Download CV</a>
         <Skills />
       </section>

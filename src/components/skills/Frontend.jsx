@@ -20,11 +20,7 @@ function Frontend() {
         </div>
         <div className="grid__item">
           <i className="uil uil-check-circle"></i>
-          <p>TDD</p>
-        </div>
-        <div className="grid__item">
-          <i className="uil uil-check-circle"></i>
-          <p>OOP</p>
+          <p>React Native</p>
         </div>
         <div className="grid__item">
           <i className="uil uil-check-circle"></i>
