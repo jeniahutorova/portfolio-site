@@ -38,10 +38,8 @@
     row-gap: 1rem;
 }
 i{
-    font-size: 2rem;
     color: var(--title-color);
     margin-left: 2rem
-
 }
 i:hover{
     color:var(--title-color-dark)
@@ -110,3 +108,20 @@ i:hover{
     align-self: center;
     margin-left: 1rem; 
   }
+ /* For small devices */
+@media screen and (max-width: 576px) {
+    .home__container{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .home__img{
+       max-width: 60%;
+        max-height: 60%;
+    }
+    .socials__container{
+        display: flex;
+        order: 2;
+        justify-content: center;
+    }
+   }
